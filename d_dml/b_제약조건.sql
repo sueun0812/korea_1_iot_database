@@ -66,7 +66,7 @@ values (1, '정수은', 'A전공'),
 desc `Students`;
 
 -- insert into `Students`
--- values (1, '김다혜', 'C전공'); # - Error 
+-- values (1, '김다혜', 'C전공'); # - Error (기본 키 충돌)
 
 # 1) 제약조건 삭제
 alter table `Students`
